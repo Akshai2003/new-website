@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio | Akshai A</title>
+    
+    <!-- Bootstrap & Fonts -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand stylish-text" href="#">AKSHAI A</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#profile">Profile</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#dark,light">Dark/Light</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Dark/Light Mode Toggle Button -->
+    <button id="theme-toggle" class="btn btn-outline-light position-fixed top-0 end-0 m-3">
+        🌙
+    </button>
+
+    <!-- Profile Section -->
+    <section id="profile" class="section py-5">
+        <div class="container text-center">
+            <br>
+            <br>
+            <h2>About Me</h2>
+            <p>👋 Hi there!<br> I'm <span class="stylish-text">AKSHAI A</span>,<br>
+                Doing B Tech in Computer Science & Engineering | Aspiring Software Engineer |<br> Tech Enthusiast | a passionate developer with skills in web development and design.</p>
+            <img src="DR1.jpg" alt="Profile Picture" class="profile-img rounded-circle">
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section py-5">
+        
+        <div class="container">
+            <h2 class="text-center">My Projects</h2><br><br>
+            <div class="row">
+                <div class="col-md-6">
+                    <a href="https://github.com/Akshai2003/E-votingsystem-blockchain" target="_blank" class="project-link">
+                        <div class="card">
+                            <img src="WhatsApp Image 2025-04-01 at 00.24.49_86f7321f.jpg" class="card-img-top" alt="Project 1">
+                            <div class="card-body">
+                                <h5 class="card-title">E-Voting using Blockchain</h5>
+                                <p class="card-text">
+                                    The system offers a user-friendly interface for voter registration, secure login, and vote casting. Aadhaar-based authentication ensures that only eligible voters participate, preventing identity fraud and unauthorized access. Once a vote is cast, smart contracts automate the tallying process, delivering real-time, error-free election results without human interference.
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+                <br>
+                <div class="col-md-6 mx-auto text-center">
+                    <div class="card">
+                        <img src="WhatsApp Image 2025-04-01 at 00.34.06_6cf7c297.jpg" class="card-img-top" alt="Project 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Currently working on another !!!!</h5>
+                            <p class="card-text"></p>
+                        </div>
+                    </div>
+                </div>
+                
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section py-5">
+        <div class="container text-center">
+            <h2>Contact Me</h2>
+            <p>Feel free to reach out through the platforms below:</p>
+            <div class="social-icons">
+                <a href="https://github.com/akshai2003" target="_blank" class="social-btn github"><i class="fab fa-github"></i></a>
+                <a href="https://wa.me/8281251440" target="_blank" class="social-btn whatsapp"><i class="fab fa-whatsapp"></i></a>
+                <a href="https://www.linkedin.com/in/akshai-a-763549355?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" class="social-btn linkedin">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="https://www.instagram.com/dr._code?igsh=MXJ1MGduMTl2azN3MQ==" target="_blank" class="social-btn instagram"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="d-flex justify-content-between align-items-center py-3">
+        <div class="container d-flex justify-content-between">
+            <!-- Address -->
+            <div class="footer-address">
+                <p><i class="fas fa-map-marker-alt"></i> Akshai.A<br>MS Sadanam<br> Valathungal,po kollam<br>Ph : 8281251440</p>
+            </div>
+            <!-- Copyright -->
+            <div>
+                <p>&copy; 2025 <span class="stylish-text">AKSHAI A</span>. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
