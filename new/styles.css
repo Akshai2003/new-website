@@ -1,15 +1,26 @@
 /* General Styles */
 body {
     font-family: 'Poppins', sans-serif;
-    background-color: #0c1838;
+    background-color: #0d0101;
     color: #ebeaea;
     transition: background-color 0.3s, color 0.3s;
 }
 
 /* Dark Mode */
 body.dark-mode {
-    background-color: #121212;
+    background-color: #1b0202;
     color: #d1d1d1;
+}
+
+/* Background Video */
+#bg-video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
 }
 
 /* Stylish Text */
@@ -23,6 +34,7 @@ body.dark-mode {
 body.dark-mode .stylish-text {
     color: #c40d1d;
 }
+
 /* Make the entire project card clickable */
 .project-link {
     text-decoration: none;
@@ -30,17 +42,15 @@ body.dark-mode .stylish-text {
     display: block;
 }
 
-/* Add a hover effect for better UX */
 .project-link:hover .card {
     transform: scale(1.03);
     transition: 0.3s;
     box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
 }
 
-
 /* Navbar */
 .navbar {
-    background: linear-gradient(45deg, #000408, #010815);
+    background: linear-gradient(45deg, hsla(183, 100%, 5%, 0.925), #01060c);
 }
 
 body.dark-mode .navbar {
@@ -65,7 +75,6 @@ body.dark-mode .profile-img {
 }
 
 /* Social Media Buttons */
-/* Social Media Buttons */
 .social-icons {
     margin-top: 20px;
     display: flex;
@@ -89,27 +98,13 @@ body.dark-mode .profile-img {
     color: #f7f7f7;
 }
 
-/* GitHub Button */
-.social-btn.github:hover {
-    background-color: #333;
-}
-
-/* WhatsApp Button */
-.social-btn.whatsapp:hover {
-    background-color: #25d366;
-}
-
-/* LinkedIn Button */
-.social-btn.linkedin:hover {
-    background-color: #0077b5;
-}
-
-/* Instagram Button */
+.social-btn.github:hover { background-color: #333; }
+.social-btn.whatsapp:hover { background-color: #25d366; }
+.social-btn.linkedin:hover { background-color: #0077b5; }
 .social-btn.instagram:hover {
     background: linear-gradient(45deg, #833ab4, #fd1d1d, #fbc2eb);
 }
 
-/* Dark Mode Social Buttons */
 body.dark-mode .social-btn {
     background-color: #444;
     color: #22172d;
@@ -118,6 +113,7 @@ body.dark-mode .social-btn {
 body.dark-mode .social-btn:hover {
     transform: scale(1.1);
 }
+
 footer {
     background-color: #000000;
     color: white;
